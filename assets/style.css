@@ -88,10 +88,6 @@ header > input{
     padding: 10px 0;
 }
 
-article > div > img{
-    height: 124px;
-    width: 124px;
-}
 
 .module {
     height: 40px;
@@ -105,8 +101,10 @@ article > div > img{
 #info{
     flex-grow: 2;
 }
-#voter{
+article #voter { 
     display: flex;
     flex-direction: column;
-    align-self: center;
-}
+    justify-content: center;
+    text-align: center;
+    width: 10px;
+  }
